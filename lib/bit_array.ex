@@ -56,5 +56,4 @@ defmodule McChunk.BitArray do
       arr
     end
   end
-
 end

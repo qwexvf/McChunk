@@ -15,5 +15,4 @@ defmodule McChunk.Utils do
 
   def idmeta_to_data({id, meta}), do: (id <<< 4) ||| meta
   def data_to_idmeta(data), do: {data >>> 4, data &&& 15}
-
 end
